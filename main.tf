@@ -10,3 +10,9 @@ resource "azurem_resource_group" "rg1" {
   
 }
 
+resource "azurem_resource_group" "rg2" {
+    name= "rgtest1"
+    location= "korean"
+  
+}
+
